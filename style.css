@@ -1,0 +1,244 @@
+* {
+
+    margin: 0;
+    padding: 0;
+  
+}
+
+body {
+    background-color: #000000;
+    background-image: url(background.png);
+    
+    background-repeat: no-repeat;
+    background-size: 1500px 800px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    height: 50vh;
+    animation: change 4s infinite ease-in-out;
+}
+@keyframes change{
+    
+    0%{
+        background-image: url(back8.png);
+    
+    }
+}
+  
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-image: initial;
+    
+
+}
+nav.img{
+    display: flex;
+    margin: 20px;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 30px 30px;
+}
+
+nav ul li a {
+       text-decoration: dashed;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+nav ul li a:hover {
+    color: rgb(243, 255, 10);
+    font-size: 1.1rem;
+}
+
+.container{
+    color: rgb(54, 143, 143);
+    font-size: 20px;
+    margin-top: 30PX;
+    margin-left: 350px;
+    margin-right: 150px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.page2{
+    margin-top:600px;
+    background: rgb(118,51,89);
+    margin-bottom: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.heading {
+    font-size: 3rem;
+    text-align: center;
+}
+
+div img{
+    
+    border: 2px solid#ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 300ms;
+
+}
+
+
+div img:hover {
+    cursor: pointer;
+    background-color: #10002a;
+    color: rgb(117, 35, 35);
+}
+.page3{
+    margin-top:30px;
+    background: rgb(118, 51, 89);
+    margin-bottom: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.heading {
+    font-size: 3rem;
+    text-align: center;
+}
+
+div img{
+    
+    border: 2px solid#ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 300ms;
+
+}
+div img:hover {
+    cursor: pointer;
+    background-color: #10002a;
+    color: rgb(117);
+}
+
+
+.page4{
+    margin-top:30px;
+    background: rgb(118,51,89);
+    margin-bottom: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.heading {
+    font-size: 3rem;
+    text-align: center;
+}
+
+div img{
+    
+    border: 2px solid#ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 300ms;
+
+}
+div img:hover {
+    cursor: pointer;
+    background-color: #10002a;
+    color: rgb(117);
+}
+
+/*contact section*/
+* {
+    box-sizing: border-box;
+}
+
+.page5 {
+    background-color: rgb(118,51,89);
+}
+.heading2{
+    color: black;
+    align-items: center;
+}
+
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-color: rgb(0, 0, 0);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+
+input[type=submit] {
+    background-color: #2f351f;
+    color: rgb(225, 225, 244);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #00067d;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    
+    
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .column,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
